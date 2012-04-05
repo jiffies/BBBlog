@@ -1,4 +1,6 @@
 BBBlog::Application.routes.draw do
+  get "static_pages/about_me"
+
   resources :posts
 
   # The priority is based upon order of creation:

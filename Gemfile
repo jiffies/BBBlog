@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'http://ruby.taobao.org'
 gem 'execjs'
 gem 'therubyracer'
 
@@ -8,9 +8,13 @@ gem 'rails', '3.2.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development do
 	gem 'sqlite3', '1.3.5'
+	gem 'rspec-rails'
 end
 group :production do
 	gem 'pg'
+end
+group :test do
+	gem 'capybara'
 end
 
 # Gems used only for assets and not required

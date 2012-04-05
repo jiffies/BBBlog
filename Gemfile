@@ -9,12 +9,18 @@ gem 'rails', '3.2.2'
 group :development do
 	gem 'sqlite3', '1.3.5'
 	gem 'rspec-rails'
+	gem 'guard-rspec'
 end
 group :production do
 	gem 'pg'
 end
 group :test do
+	gem 'guard-spork'
+	gem 'spork'
 	gem 'capybara'
+	gem 'rspec-rails'
+	gem 'rb-inotify'
+	gem 'libnotify'
 end
 
 # Gems used only for assets and not required

@@ -2,6 +2,7 @@ source 'http://ruby.taobao.org'
 gem 'execjs'
 gem 'therubyracer'
 
+gem 'bootstrap-sass', '2.0.0'
 gem 'rails', '3.2.2'
 
 # Bundle edge Rails instead:

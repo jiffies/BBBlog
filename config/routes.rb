@@ -1,5 +1,5 @@
 BBBlog::Application.routes.draw do
-  get "static_pages/about_me"
+  match '/about', to: 'static_pages#about_me'
 
   resources :posts
 

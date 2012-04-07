@@ -1,5 +1,8 @@
 BBBlog::Application.routes.draw do
+  resources :tags
+
   match '/about', to: 'static_pages#about_me'
+	resources :login
 
   resources :posts
 

@@ -1,0 +1,9 @@
+<h1>登录</h1>
+<%= form_tag "/login" do %>
+	<label for="email">Email</label>
+	<%= text_field_tag :email, params[:email] %>
+	<label for="password">密码</label>
+	<%= password_field_tag :password, params[:password] %>
+	<br />
+	<%= submit_tag "Login" %>
+<% end %>
